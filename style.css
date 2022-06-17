@@ -1,0 +1,62 @@
+body {
+	font-family: sans-serif;
+}
+
+.weekly-item {
+	display: flex;
+	align-items: center;
+	padding: 12px 0;
+	border-bottom: 1px solid #EEE;
+}
+
+.weekly-item .number {
+	font-size: 20px;
+	font-weight: bold;
+	padding: 0 10px;
+}
+.weekly-item .info {
+	font-size: 14px;
+	flex-grow: 1;
+}
+.weekly-item .song-title {
+	margin-bottom: 5px;
+}
+.weekly-item .singer {
+	font-size: 12px;
+	color: #BBB;
+}
+.weekly-item .view-count {
+	font-size: 12px;
+	color: #BBB;
+}
+
+.MV-item {
+	display: flex;
+	font-family: sans-serif;
+	color: black;
+}
+.MV-item .overlay {
+	display: flex;
+	color: white;
+	width: 128px;
+	height: 128px;
+	background-image: url(https://loremflickr.com/128/200);
+	background-size: cover;
+	background-position: center;
+	background: linear-gradient(0deg, rgba(0,0,6,0.8323704481792717) 46%, rgba(255,255,255,0.3309698879551821) 99%);
+	align-items: flex-end;
+	padding: 8px;
+	box-sizing: border-box;
+}
+.MV-item .info {
+	flex-grow: 1;
+	margin: 10px;
+}
+.MV-item .singer {
+	font-size: 12px;
+	color: #BBB;
+}
+.MV-item .view-count {
+	font-size: 12px;
+	color: #BBB;
+}
